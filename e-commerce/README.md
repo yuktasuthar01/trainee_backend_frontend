@@ -15,4 +15,4 @@ I have already deployed this Application on [Heroku](https://heroku.com)
 
 #### Contributors:
 
-> [Dhruv Prajapati](https://github.com/DGamer007)
+> [Yukta Suthar](https://github.com/yuktasuthar01)
