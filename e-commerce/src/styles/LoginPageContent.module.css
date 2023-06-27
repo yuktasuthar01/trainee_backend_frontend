@@ -1,0 +1,29 @@
+.section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section_one {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 15px;
+}
+
+.section_one ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    list-style: disc;
+    padding-left: 15px;
+    font-weight: 400;
+    color: var(--theme-font-color);
+}
+
+.custombutton {
+    height: 40px;
+    width: 220px;
+    margin-top: 14px;
+}

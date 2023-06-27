@@ -1,0 +1,24 @@
+.buttoncontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.buttoncontainer button {
+    height: 30px;
+    width: 80px;
+    background-color: transparent;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.buttoncontainer button:nth-of-type(1) {
+    border: 2px solid var(--theme-green);
+    color: var(--theme-green);
+}
+
+.buttoncontainer button:nth-of-type(2) {
+    border: 2px solid var(--theme-pink);
+    color: var(--theme-pink);
+}

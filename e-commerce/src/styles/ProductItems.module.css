@@ -1,0 +1,40 @@
+.section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    color: var(--theme-font-dark);
+    font-weight: 700;
+}
+
+.sort select {
+    width: 200px;
+    height: 40px;
+    background-position: 170px center;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}

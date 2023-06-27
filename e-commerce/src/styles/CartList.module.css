@@ -1,0 +1,25 @@
+.section {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.button {
+    height: 40px;
+    width: 140px;
+    align-self: flex-start;
+}

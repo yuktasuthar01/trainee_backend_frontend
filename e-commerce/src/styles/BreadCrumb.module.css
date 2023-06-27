@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 10px;
+    font-size: 18px;
+}
+
+.container img {
+    padding-top: 5px;
+    padding-left: 3.5px;
+}
+
+
+.container p:nth-child(3) {
+    color: var(--theme-pink);
+}
+
+.homeLink {
+    color: var(--theme-dark);
+}
+
+.homelink:visited {
+    color: var(--theme-dark);
+}
+
+.homeLink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

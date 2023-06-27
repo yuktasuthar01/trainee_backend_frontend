@@ -1,0 +1,32 @@
+.section {
+    height: 80px;
+    background-color: var(--theme-gray);
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    width: 80%;
+}
+
+.searchbar {
+    width: 422px;
+    height: 40px;
+}
+
+.container button {
+    height: 40px;
+    width: 129px;
+}
+
+.search_button {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    align-items: center;
+}
