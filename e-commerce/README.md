@@ -55,7 +55,7 @@ To View our website we run [Click Here](http://localhost:4003/dashboard) in our 
 ## ScreenShots/Output
 ![Home Page](images/home.png) 
 
-![Myproduct Page](images/myproduct.png)
+![Myproduct Page](images/image.png)
 
 ![Database Product Page](images/database_product.png)
 
