@@ -20,28 +20,27 @@ I have already deployed this Application on [Heroku](https://heroku.com)
 1. Install [Node.js](https://nodejs.org/en/download) on your machine having its version over 12.0.0  To check pur node version , run this command on terminal.
    ```
    node --version
-
    ```
-3. Clone this repository on your machine.
+2. Install [MongoDB](https://www.mongodb.com/try/download/shell) on you machine having its latest version .To check its version , run this command on terminal.
+   ```
+   mongod --version
+   ```
+    
+4. Clone this repository on your machine.
    ```
    git clone https://github.com/yuktasuthar01/trainee_backend_frontend/tree/master/e-commerce
-
    ```
-4. Install dependencies for front end and back end
+5. Install dependencies for front end and back end
    ```
-
    npm install
-
    ```
-5. For running Frontend
+6. For running Frontend
    ```
    npm run dev
-
    ```
 7. For running Backend
    ```
     npm run start:dev
-
    ```
 9. For running Database
 
@@ -49,7 +48,6 @@ I have already deployed this Application on [Heroku](https://heroku.com)
    mongod --port=5000 --dbpath="data/primary" --replSet="assignmentreplica"
    mongod --port=5001 --dbpath="data/secondary2" --replSet="assignmentreplica"
    mongod --port=5002 --dbpath="data/secondary1" --replSet="assignmentreplica"
-
    ```
 To View our website we run [Click Here](http://localhost:4003/dashboard) in our brower.
 
